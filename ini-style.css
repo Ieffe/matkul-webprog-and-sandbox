@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+.ini-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #b10000;
+}
+.ini-nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.ini-nav li{
+    float: left;
+    display: block;
+    color: white;
+}
+
+.ririv{
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    float: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.nav-right{
+    float: right;
+}
+
+.ini-nav li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ini-nav li a:hover{
+    background-color: #ff4040;
+}
+
+.ini-nav li.contact{
+    display: inline-block;
+}
+
+.contact:hover .contact-dropdown{
+    display: block;
+}
+
+.ini-nav li.contact .contact-dropdown a{
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-dropdown{
+    display: none;
+    background-color: #b63636;
+    min-width: 150px;
+    position: absolute;
+    z-index: 1s;
+}
+
+.contact-dropdown a:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.ini-header-keren{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-image: url("images/pred.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+}
+
+.ini-header-keren p{
+    font-size: 20px;
+}
+
+.ini-header-keren h1{
+    text-transform: capitalize;
+    font-size: 60px;
+}

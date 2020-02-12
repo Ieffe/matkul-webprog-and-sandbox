@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.ini-navbar{
+    position: rfixed;
+    top: 0;
+    background-color: #df0000;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0;
+}
+
+.ini-navbar a{
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-family: "Google Sans";
+    color: white;
+}
+
+
+.ini-navbar-ririv{
+    float: none;
+    font-size: large;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,-50%);
+}
+
+.ini-navbar-kanan{
+    float: right;
+    padding-right: 20px;
+}
