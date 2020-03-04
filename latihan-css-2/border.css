@@ -1,0 +1,37 @@
+.test1,.test2,.test3,.test4,.test5,.test6,.test7,.test8{
+    border-color: aqua;
+    width: 500px;
+}
+
+.test1{
+    border-style: solid;
+}
+
+.test2{
+    border-style: dotted;
+}
+
+.test3{
+    border-style: dotted dashed dashed dashed;
+    border-width: thin medium thick medium;
+}
+
+.test4{
+    border-style: double;
+}
+
+.test5{
+    border-style: groove;
+}
+
+.test6{
+    border-style: ridge;
+}
+
+.test7{
+    border-style: inset;
+}
+
+.test8{
+    border-style: outset;
+}
