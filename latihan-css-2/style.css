@@ -1,0 +1,36 @@
+
+html{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+h1{
+    font-family: Georgia, serif;
+    color: rgb(40, 40, 148);
+    text-shadow: 1px 1px 4px #000000;
+}
+
+#p1, #p2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1{
+    font-weight: bold;
+}
+
+#by{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-style: italic;
+}
+
+#title1{
+    color: royalblue;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+#title2{
+    color: royalblue;
+}
