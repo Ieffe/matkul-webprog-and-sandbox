@@ -1,0 +1,47 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    border: black;
+    border-style: double;
+    border-width: 3px;
+}
+
+.tagline{
+    text-align: center;
+    margin: 10px;
+}
+
+ul{
+    padding: 15px;
+    text-align: center;
+    border: black solid;
+    margin: 50px 150px;
+    border-width: 3px 0px 1px;
+}
+li{
+    margin: 20px 50px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+li.home{
+    color: crimson;
+}
+
+.text{
+    margin: 30px 150px;
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    margin: 30px auto;
+}
+
+#rhodes{
+    display: block;
+    margin: 30px auto;
+    height: 260px;
+}

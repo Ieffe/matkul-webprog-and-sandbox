@@ -1,0 +1,13 @@
+li{
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+}
+
+li.right{
+    margin-left: 20px;
+}
+
+.coming-soon{
+ visibility: hidden;
+}
