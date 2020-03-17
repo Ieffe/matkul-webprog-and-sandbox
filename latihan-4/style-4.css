@@ -20,13 +20,27 @@ ul{
     margin: 50px 150px;
     border-width: 3px 0px 1px;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: crimson;
+}
+
+a:active{
+    color: crimson;
+}
+
 li{
-    margin: 20px 50px;
+    padding: 20px;
+    margin: 50px 20px;
     display: inline;
     text-transform: uppercase;
 }
 
-li.home{
+a.home{
     color: crimson;
 }
 
