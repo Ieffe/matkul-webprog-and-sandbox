@@ -44,7 +44,7 @@
             shippingState = state.value,
             shippingMethod = document.querySelector("[name=r_method]:checked").value;
 
-            var totalQty = itemBall + itemJersey + itemPower,
+            var totalQty = parseInt(itemBall) + parseInt(itemJersey) + parseInt(itemPower),
             shippingCostPer, shippingCost, taxFactor = 1, estimate, totalItemPrice = (90 * itemBall) + (25 * itemJersey) + (30 * itemPower);
 
             if (shippingState === "CA"){
@@ -69,7 +69,15 @@
 
             estimate = (totalItemPrice * taxFactor) + shippingCost;
             
-            document.getElementById("txt-estimate").value = estimate; 
+            document.getElementById("txt-estimate").value = "$"+ parseFloat(estimate).toFixed(2); 
+
+            var result = document.getElementById("results");
+            
+
+            result.innerHTML = "Total Items: " + parseInt(totalQty) + "<br>";
+            result.innerHTML += "Total Shipping: $" + parseFloat(shippingCost).toFixed(2) + "<br>";
+            result.innerHTML += "Tax: " + ((taxFactor - 1) * 100).toFixed(2) + "% (" + shippingState + ") <br>";
+
             
         }
     
